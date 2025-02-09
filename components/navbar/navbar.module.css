@@ -1,0 +1,69 @@
+
+@media(max-width:768px){
+  .navbar{
+    width: 100% !important;
+    height: fit-content !important;
+    padding: 5px 5px !important;
+    bottom: 2px !important;
+    margin-bottom: 5px !important;
+    z-index: 50;
+
+  }
+  .navbar a{
+    font-size: 23px !important;
+    padding: 5PX 10PX !important;
+  }
+  .navbar a:hover {
+    
+    
+    
+      
+  }
+
+
+  
+}
+
+
+
+.navbar {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+    padding: 20px 10px;
+    background: rgba(51, 51, 51, 0.491);
+    backdrop-filter: blur(23px);
+    border-radius: 50px;
+    width: 30%;
+    justify-content: center;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2.1rem;
+    padding: 5px 20px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease-in-out, color 0.1s ease-in-out, transform 0.1s ease, box-shadow 0.1s ease;
+    
+  }
+  
+  /* Hover effect for links */
+  .navbar a:hover {
+    background-color: rgba(206, 202, 202, 0.188);
+    color: #ffffff;
+    opacity: 0.8;
+  }
+  
+  /* Selected link styling */
+  .selected {
+    background-color: rgba(185, 184, 184, 0.188);
+    color: #ffffff;
+    opacity: 0.8;
+  }
+
+  

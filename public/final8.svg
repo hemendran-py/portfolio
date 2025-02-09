@@ -1,0 +1,44 @@
+<svg width="1440" height="1499" viewBox="0 0 1440 1499" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1440" height="1499" fill="#161616"/>
+<mask id="mask0_612_109" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="1499">
+<rect width="1440" height="1499" fill="url(#paint0_radial_612_109)"/>
+</mask>
+<g mask="url(#mask0_612_109)">
+<line x1="768.75" y1="2.92773" x2="768.75" y2="1482.9" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="865.75" y1="2.92773" x2="865.75" y2="1482.9" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="962.75" y1="2.92773" x2="962.75" y2="1482.9" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1059.75" y1="2.92773" x2="1059.75" y2="1482.9" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1156.75" y1="2.92773" x2="1156.75" y2="1482.9" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1253.75" y1="2.92773" x2="1253.75" y2="1482.9" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1350.75" y1="2.92773" x2="1350.75" y2="1482.9" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="671.75" y1="2.92773" x2="671.75" y2="1484.36" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="477.75" y1="2.92773" x2="477.75" y2="1482.9" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="574.75" y1="2.92773" x2="574.75" y2="1482.9" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="380.75" y1="2.92773" x2="380.75" y2="1482.9" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="283.75" y1="2.92773" x2="283.75" y2="1482.9" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="186.75" y1="2.92773" x2="186.75" y2="1471.19" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="89.75" y1="13.1748" x2="89.75" y2="1485.83" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line y1="-0.75" x2="1421" y2="-0.75" transform="matrix(0.999998 -0.00208746 0.00091053 1 1 451)" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line y1="-0.75" x2="1418" y2="-0.75" transform="matrix(0.999998 -0.00207883 0.000906766 1 1 358)" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1" y1="264.25" x2="1415" y2="264.25" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1" y1="173.25" x2="1414" y2="173.25" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line y1="-0.75" x2="1406" y2="-0.75" transform="matrix(0.999999 -0.000988625 0.000431228 1 1 83.39)" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1" y1="541.25" x2="1424" y2="541.25" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1" y1="632.25" x2="1432" y2="632.25" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1" y1="723.25" x2="1432" y2="723.25" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1" y1="814.25" x2="1439" y2="814.25" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1" y1="996.25" x2="1439" y2="996.25" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1" y1="1451.25" x2="1439" y2="1451.25" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1" y1="1360.25" x2="1439" y2="1360.25" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1" y1="1269.25" x2="1439" y2="1269.25" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1" y1="1178.25" x2="1439" y2="1178.25" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1" y1="1087.25" x2="1439" y2="1087.25" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="1" y1="905.25" x2="1439" y2="905.25" stroke="#3C3C3C" stroke-width="1.5" stroke-dasharray="4 3"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_612_109" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20.9999 -0.000101327) scale(1158 875.462)">
+<stop/>
+<stop offset="1" stop-color="#242222" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
