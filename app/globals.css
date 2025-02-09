@@ -83,7 +83,7 @@ body {
 @media(min-width: 768px){
   .timepicker-container{
     position: absolute;
-    top:150px;
+    top:150px !important;
     right:6%;
     font-size: xx-large;
   }
