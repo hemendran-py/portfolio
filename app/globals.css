@@ -192,14 +192,12 @@ body {
   }
   .intro{
   
-    font-size:25 !important;
-    color: #ffffff;
-    height: fit-content !important;
-    width: fit-content;
-    
-    margin-top: 2rem !important;
-    border-radius: 25px !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 1.4rem !important;
+    padding: 5px !important;
+    padding-left: 10px !important;
+    padding-right:10px !important ;
+    margin-left: 4% !important;
+    margin-top: 4% !important;
   
   }
   .he-him{
