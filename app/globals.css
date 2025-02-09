@@ -814,6 +814,8 @@ body {
   grid-column:3/4 ;
   grid-row:8/9 ;
   margin-top: 10%;
+  justify-content: center;
+  align-items: center;
   
 
  }
