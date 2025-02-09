@@ -774,7 +774,7 @@ body {
  }
  .about-text{
   color: white;
-  padding-left: 10;
+  padding-left: 10px !important;
   font-size: 12;
   text-align: justify;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
