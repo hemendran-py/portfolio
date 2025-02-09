@@ -1,9 +1,9 @@
 "use client"
 import Location from "@/components/location";
 import React, { useEffect, useState } from "react";
-import { Nunito } from 'next/font/google';
 
-const nunito=Nunito({subset:["latin"]});
+
+
 
 function TimePicker() {
     const [time, setTime] = useState(new Date());
@@ -14,7 +14,7 @@ function TimePicker() {
     }, []);
 
     return (
-        <div className={`${nunito.variable} `}>
+        <div>
             <div >
                 
 

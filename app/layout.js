@@ -32,6 +32,9 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  useEffect(() => {
+    document.body.style.zoom = "80%"; // Forces 80% zoom
+  }, []);
   return (
     <html lang="en">
 
