@@ -73,7 +73,7 @@ body {
 
 .timepicker-container {
   position: absolute;
-  top: 60; 
+  top: 60px !important; 
   padding-right: 5%;
   right: 0;
   z-index: 10; 
