@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import fetch from 'node-fetch';
 
+// Function to refresh Spotify access token
 async function refreshAccessToken() {
   const tokenUrl = 'https://accounts.spotify.com/api/token';
   const refreshToken = process.env.REFRESH_TOKEN;
@@ -26,6 +27,7 @@ async function refreshAccessToken() {
   return data.access_token;
 }
 
+// Fetch recently played track
 async function getRecentlyPlayedTrack(accessToken) {
   const apiUrl = 'https://api.spotify.com/v1/me/player/recently-played';
 
@@ -33,12 +35,14 @@ async function getRecentlyPlayedTrack(accessToken) {
     headers: {
       'Authorization': `Bearer ${accessToken}`,
     },
+    cache: 'no-store' // Prevents caching
   });
 
   const data = await response.json();
   return data.items.length ? data.items[0].track : null;
 }
 
+// Fetch user profile
 async function getUserProfile(accessToken) {
   const apiUrl = 'https://api.spotify.com/v1/me';
 
@@ -46,12 +50,14 @@ async function getUserProfile(accessToken) {
     headers: {
       'Authorization': `Bearer ${accessToken}`,
     },
+    cache: 'no-store' // Prevents caching
   });
 
   const data = await response.json();
   return data;
 }
 
+// Main GET function to return fresh data
 export async function GET() {
   try {
     const accessToken = await refreshAccessToken();
@@ -59,13 +65,22 @@ export async function GET() {
     const userProfile = await getUserProfile(accessToken);
 
     if (track) {
-      return NextResponse.json({
-        name: track.name,
-        artist: track.artists.map(artist => artist.name).join(', '),
-        image: track.album.images[0]?.url || '',
-        url: track.external_urls.spotify,
-        profileUrl: userProfile.external_urls.spotify, // Added profile link
-      });
+      return NextResponse.json(
+        {
+          name: track.name,
+          artist: track.artists.map(artist => artist.name).join(', '),
+          image: track.album.images[0]?.url || '',
+          url: track.external_urls.spotify,
+          profileUrl: userProfile.external_urls.spotify,
+        },
+        {
+          headers: {
+            'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate', // Prevents caching
+            Pragma: 'no-cache',
+            Expires: '0',
+          },
+        }
+      );
     } else {
       return NextResponse.json({ message: 'No recently played track found.' });
     }

@@ -8,7 +8,20 @@ export default function HomePage() {
 
   async function fetchTrack() {
     try {
-      const response = await fetch('/api/recently-played');
+      // Append timestamp to prevent caching
+      const response = await fetch(`/api/recently-played?t=${Date.now()}`, {
+        cache: 'no-store', // Ensures fresh data from server
+        headers: {
+          'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
+          Pragma: 'no-cache',
+          Expires: '0',
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to fetch track.');
+      }
+
       const data = await response.json();
 
       if (data.name) {
@@ -22,17 +35,17 @@ export default function HomePage() {
   }
 
   useEffect(() => {
-    fetchTrack();
+    fetchTrack(); // Fetch on first load
 
     const interval = setInterval(() => {
       fetchTrack();
-    }, 300000);
+    }, 300000); // Refresh every 5 minutes
 
     return () => clearInterval(interval);
   }, []);
 
   if (error) {
-    return <div>{error}</div>;
+    return <div className="error">{error}</div>;
   }
 
   return (
@@ -40,12 +53,14 @@ export default function HomePage() {
       <div className="spotify-header">
         <img className="spotify-logo" src="/spotify_logo.png" alt="Spotify Logo" />
         <h1 className="title font-semibold">Recently Played</h1>
-        <button
-          className="view-profile"
-          onClick={() => window.open(track.profileUrl, '_blank')}
-        >
-          View Profile
-        </button>
+        {track && (
+          <button
+            className="view-profile"
+            onClick={() => window.open(track.profileUrl, '_blank')}
+          >
+            View Profile
+          </button>
+        )}
       </div>
 
       {track ? (
@@ -58,17 +73,15 @@ export default function HomePage() {
             </div>
             <button
               className="play-now-btn"
-              onClick={() => window.open(track.url, '_blank')}>
+              onClick={() => window.open(track.url, '_blank')}
+            >
               Play On <img className="spotify-logo2" src="/spotify_logo.png" alt="Spotify Logo" />
             </button>
           </div>
         </div>
       ) : (
-        <p>Loading...</p>
+        <p className="loading">Loading...</p>
       )}
     </div>
-
-
-
   );
 }
