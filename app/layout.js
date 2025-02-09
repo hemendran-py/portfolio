@@ -1,9 +1,11 @@
-'use-client';
+"use-client";
+
 import "./globals.css";
 import localfont from "next/font/local"
 import Header from "@/components/header";
 import Navbar from "@/components/navbar/navbar";
 import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
+
 const cool = localfont(
   {
     src: [{
@@ -32,9 +34,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  useEffect(() => {
-    document.body.style.zoom = "80%"; // Forces 80% zoom
-  }, []);
+
   return (
     <html lang="en">
 
