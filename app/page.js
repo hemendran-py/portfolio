@@ -127,11 +127,11 @@ export default function Home() {
         <img src="chess.svg" className="yt-icon" />
       </a>
 
-      <a className=" item items-16 temp-fill effects">
+      <p className=" item items-16 temp-fill effects flex justify-center items-center text-center">
         WORK IN PROGRESS⚠️
 
 
-      </a>
+      </p>
 
       <div className="item items-17">
         <HomePage />
