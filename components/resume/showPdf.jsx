@@ -6,7 +6,7 @@ import React from 'react';
 const ShowPdf = () => {
   const handleClick = () => {
     // Open the PDF in a new tab
-    window.open('/resume/hemendran_resume.pdf', '_blank'); // Path to your PDF file
+    window.open('/resume/Hemendran_resume.pdf', '_blank'); // Path to your PDF file
   };
 
   return (
