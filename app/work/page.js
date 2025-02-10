@@ -1,6 +1,9 @@
 import React from "react";
 import { BentoGrid, BentoCard } from "@/components/ui/bento-grid";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
+import styles from "./work.module.css"; // Import your CSS module
+
+
 
 const MyComponent = () => {
     return (
@@ -17,7 +20,7 @@ const MyComponent = () => {
                     </div>
                 }
                 
-                className="col-span-1 sm:col-span-1 lg:col-span-2 row-span-2 lg:row-span-4 h-[28rem] sm:h-[40rem] lg:h-[40rem] group text-2xl "
+                className="col-span-1 sm:col-span-1 lg:col-span-2 row-span-2 lg:row-span-4 h-[28rem] sm:h-[40rem] lg:h-[40rem] group text-2xl  "
                 Icon={ArrowRightIcon}
                 background={
                     <div className="">
@@ -28,6 +31,7 @@ const MyComponent = () => {
                         />
                     </div>
                 }
+                index={0}
             />
 
             {/* Two Small Cards (2nd & 3rd Boxes) */}
@@ -51,6 +55,7 @@ const MyComponent = () => {
                         />
                     </div>
                 }
+                index={1}
                 
             />
 
@@ -77,6 +82,7 @@ const MyComponent = () => {
 
                     </div>
                 }
+                index={2}
             />
         </BentoGrid>
 

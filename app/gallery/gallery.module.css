@@ -1,62 +1,63 @@
-/* gallery.module.css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+}
+
+.gridItem {
+  opacity: 0; /* Initially hidden */
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+/* Base styles */
 .container {
-    padding: 20px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 900px !important; /* Control the max width of the gallery */
-    display: flex;
-    gap: 50px;
-    justify-content:center ;
-    margin-bottom: 200px;
-    max-height: fit-content;
-  }
-  
-  
+  padding: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px !important; /* Control the max width of the gallery */
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 200px;
+  max-height: fit-content;
+}
 
-  
-  /* Flex container for 1 column */
+.gridContainer {
+  display: flex;
+  flex-direction: column; /* Stack the images vertically */
+  gap: 50px; /* Space between images */
+  margin-top: 20px;
+  width: 50%;
+  border-radius: 30px;
+}
+
+.gridItem img {
+  width: 100%; /* Make image fill the container's width */
+  height: auto;
+  object-fit: fill;
+  border-radius: 30px;
+
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 5% !important;
+    gap: 20px !important;
+    margin-bottom: 50px;
+  }
   .gridContainer {
-    display: flex;
-    flex-direction: column; /* Stack the images vertically */
-    gap: 50px; /* Space between images */
-    margin-top: 20px;
-    width: 50%;
+    gap: 20px !important;
   }
-  
-  /* Styling for each grid item (image) */
-  .gridItem {
-    width: 100%; /* Make each item take up the full width */
-    height: max-content;
-    position: relative;
-    overflow: hidden;
-    background-color: #ddd; /* Optional, for background */
-    border-radius: 30px;
-  }
-  
-  /* Styling for the image itself */
   .gridItem img {
-    width: 100%; /* Make image fill the container's width */
-    height: auto; /* Height will adjust automatically to maintain aspect ratio */
-    object-fit: fill; /* Ensures image is scaled to fit without cropping */
-    
+    border-radius: 10px;
+    border-radius: 15px !important;
   }
-
-  
-  /* Make the grid responsive on smaller screens */
-  @media (max-width: 768px) {
-    .container {
-      max-width: 100%; /* Full width on smaller screens */
-      padding: 5% !important;
-      gap: 20px !important;
-      margin-bottom: 50px;
-      
-    }
-    .gridContainer{
-      gap: 20px !important;
-    }
-    .gridItem{
-      border-radius: 10px;
-    }
-  }
-  
+}

@@ -10,14 +10,14 @@ const ShowPdf = () => {
   };
 
   return (
-    <div 
+    <div  
       onClick={handleClick}
       style={{
         cursor: 'pointer'
         
         
       }}
-      className='item items-9 effects font-bold'
+      className='item items-9 delay-9 effects font-bold'
     >
         < img src="/cv.svg" className="resume" />
         
