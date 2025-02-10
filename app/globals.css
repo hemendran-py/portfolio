@@ -12,7 +12,7 @@ body {
   background-size: cover;
   background-position: center center; 
   background-repeat: no-repeat; 
-  height: 150vh;
+  height: 120vh;
   font-family: 'Nunito', sans-serif;
  
  
@@ -33,6 +33,9 @@ body {
 @media (max-width: 768px) {
   .effects:hover {
     transform: none;
+  }
+  .foot{
+    height: 10px !important;
   }
 }
 
@@ -92,7 +95,7 @@ body {
 
 .container{
   display:grid;
-  grid-template-rows:28vw 22vw 50vw 25vw 35vw 45vw 58vw 25vw 65vw 40VW 40vw ;
+  grid-template-rows:28vw 22vw 50vw 25vw 35vw 45vw 58vw 25vw 65vw 50VW 20vw ;
   grid-template-columns: 30% 40% 30%   ;
   padding-right:4%;
   padding-left: 4%;
@@ -953,6 +956,8 @@ body {
   grid-column:1/4 ;
   grid-row: 10/11;
   background-color: #000000;
+  margin-top: 20px;
+  
   
   
 }
