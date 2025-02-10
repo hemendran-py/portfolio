@@ -1,7 +1,7 @@
 
 import HomePage from '../components/spotify/homepage';
 import ShowPdf from '@/components/resume/showPdf';
-
+import { ConfettiSideCannons } from '@/components/confetti/confetti';
 import Link from "next/link"
 
 export default function Home() {
@@ -69,7 +69,12 @@ export default function Home() {
       </a>
 
       <a className="item items-7  ">
+        <ConfettiSideCannons>
+
         < img src="/spiderman.jpg" className="spiderman-logo" />
+        </ConfettiSideCannons>
+
+        
       </a>
 
       <a className="item items-8  effects">
