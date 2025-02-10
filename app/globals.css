@@ -95,7 +95,7 @@ body {
 
 .container{
   display:grid;
-  grid-template-rows:28vw 22vw 50vw 25vw 35vw 45vw 58vw 25vw 65vw 50VW 20vw ;
+  grid-template-rows:28vw 22vw 50vw 25vw 35vw 45vw 60vw 25vw 65vw 50VW 20vw ;
   grid-template-columns: 30% 40% 30%   ;
   padding-right:4%;
   padding-left: 4%;
