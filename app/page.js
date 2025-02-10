@@ -104,7 +104,7 @@ export default function Home() {
         <img src="/techstack-icon/vscode.svg" alt="Icon 4" className="grid-icon" />
       </div>
 
-      <a className="item items-11  effects">
+      <a href='https://pin.it/3W9JMQMiD' className="item items-11  effects">
         < img src="/pinterest.svg" alt="pinterest logo" className="discord-logo" />
       </a>
 
