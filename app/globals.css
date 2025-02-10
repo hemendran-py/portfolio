@@ -786,7 +786,7 @@ body {
   font-size: 10;
   text-align: justify;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding-bottom: 2px;
+  padding-bottom: 5px !important;
 
   
 
