@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className=" container">
 
-      <div className="item items-1 delay-1 ">
+      <div className="item items-1  ">
         <h1 className="name-title  pt-5 px-4">
 
             Hemendran (aka " <span className="font-cool "> Aadhi</span>")
@@ -29,12 +29,12 @@ export default function Home() {
       </div>
 
 
-      <a href='https://github.com/hemendran-py/' className="item items-2  delay-2 effects ">
+      <a href='https://github.com/hemendran-py/' className="item items-2  effects ">
         <img src="/git.svg" alt="github logo" className="git-logo" />
       </a>
 
 
-      <a href='https://www.instagram.com/not._hxm_/' className="item items-3 delay-3 effects ">
+      <a href='https://www.instagram.com/not._hxm_/' className="item items-3  effects ">
         <div className="instagram-gradient ">
           <img src="/instagram.svg" className="instagram-logo" />
 
@@ -42,12 +42,12 @@ export default function Home() {
       </a>
 
 
-      <a href='https://www.snapchat.com/add/aadhi_hemendran' className="item items-4 delay-4 effects">
+      <a href='https://www.snapchat.com/add/aadhi_hemendran' className="item items-4 effects">
         <img src="/snapchat.svg" className="snapchat-logo" />
       </a>
 
 
-      <div className="item items-5 delay-5 ">
+      <div className="item items-5  ">
         <div className="intro px-4   ">
           <div className="font">
 
@@ -64,15 +64,15 @@ export default function Home() {
       </div>
 
 
-      <a href="mailto:hemendrankumar@gmail.com?subject=Hello&body=Hi Hemendran, I found your portfolio!" className="item items-6 delay-6 effects">
+      <a href="mailto:hemendrankumar@gmail.com?subject=Hello&body=Hi Hemendran, I found your portfolio!" className="item items-6  effects">
         < img src="/mail.png" className="mail-logo" />
       </a>
 
-      <a className="item items-7 delay-7 ">
+      <a className="item items-7  ">
         < img src="/spiderman.jpg" className="spiderman-logo" />
       </a>
 
-      <a className="item items-8 delay-8 effects">
+      <a className="item items-8  effects">
         < img src="/discord.svg" className="discord-logo" />
       </a>
 
@@ -81,7 +81,7 @@ export default function Home() {
     <ShowPdf />
  
 
-      <div className="item items-10 delay-10 ">
+      <div className="item items-10  ">
         <h2 className="tech-stack-heading px-2 pt-1">Tech Stack</h2>
         <img src="/techstack-icon/jscript.svg" alt="Icon 4" className="grid-icon" />
         <img src="/techstack-icon/nextt.svg" alt="Icon 4" className="grid-icon" />
@@ -99,15 +99,15 @@ export default function Home() {
         <img src="/techstack-icon/vscode.svg" alt="Icon 4" className="grid-icon" />
       </div>
 
-      <a className="item items-11 delay-11 effects">
+      <a className="item items-11  effects">
         < img src="/pinterest.svg" alt="pinterest logo" className="discord-logo" />
       </a>
 
-      <a className="item items-12 delay-12 effects">
+      <a className="item items-12  effects">
         < img src="/x.svg" className="x-logo" />
       </a>
 
-      <a className="item items-13 delay-13 ">
+      <a className="item items-13  ">
 
         <h2 className="about-me px-2 py-1">
               about me
@@ -121,27 +121,27 @@ export default function Home() {
 
       </a>
 
-      <a className="item items-14 delay-14 effects ">
+      <a className="item items-14  effects ">
         <img src="/youtube.svg" className="yt-icon" />
       </a>
 
-      <a href='https://www.chess.com/member/hemendran0411' className="item items-15 delay-15 effects">
+      <a href='https://www.chess.com/member/hemendran0411' className="item items-15  effects">
         <img src="chess.svg" className="yt-icon" />
       </a>
 
-      <p className=" item items-16 delay-16 temp-fill effects flex justify-center items-center text-center">
+      <p className=" item items-16  temp-fill effects flex justify-center items-center text-center">
         WORK IN PROGRESS⚠️
 
 
       </p>
 
-      <div className="item items-17 delay-17">
+      <div className="item items-17 ">
         <HomePage />
 
 
       </div>
    
-      <div className='item items-18 delay-17 w-full text-center py-4 text-gray-500 text-sm bg-gray-900'> 
+      <div className='item items-18  w-full text-center py-4 text-gray-500 text-sm bg-gray-900'> 
       © {new Date().getFullYear()} Hemendran. All rights reserved.
       </div>
       <div className='foot'></div>

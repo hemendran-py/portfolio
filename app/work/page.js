@@ -15,7 +15,7 @@ const MyComponent = () => {
                 description="Easy Integration of Spotify API for your website"
                 href="https://github.com/hemendran-py/spotify-status-api"
                 cta={
-                    <div className="text-xl ">
+                    <div className="text-xl font-semibold ">
                         View in Github
                     </div>
                 }
@@ -73,11 +73,15 @@ const MyComponent = () => {
                 name="Phishing URL Detection"
                 description="A command-line tool that detects phishing URLs based on machine learning techniques ."
                 href="https://github.com/hemendran-py/detect-phishing-url"
-                cta="View in Github"
+                cta={
+                    <div className=" font-semibold">
+                        View in Github
+                    </div>
+                }
                 className="col-span-1 sm:col-span-2 lg:col-span-2 lg:row-span-2 min-h-[18rem] text-2xl"
                 Icon={ArrowRightIcon}
                 background={
-                    <div className="bg-green-200 min-h-100vh absolute top-0 right-0 w-full h-full object-cover">
+                    <div className="bg-gray-600 min-h-100vh absolute top-0 right-0 w-full h-full object-cover">
                         
 
                     </div>
