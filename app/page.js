@@ -135,7 +135,7 @@ export default function Home() {
       </a>
 
       <Link href="/gallery" className=" item items-16  temp-fill effects flex justify-center items-center text-center">
-        <img src="/apple.png" className="max-h-full p-1 object-cover" />
+        <img src="/gallery.png" className="max-h-full p-1 object-cover" />
       </Link>
 
       <div className="item items-17 ">
