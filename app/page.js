@@ -126,17 +126,17 @@ export default function Home() {
 
       </a>
 
-      <Link href='https://www.youtube.com/@hemendrans1195' className="item items-14  effects ">
+      <a className="item items-14  effects ">
         <img src="/youtube.svg" className="yt-icon" />
-      </Link>
+      </a>
 
       <a href='https://www.chess.com/member/hemendran0411' className="item items-15  effects">
         <img src="chess.svg" className="yt-icon" />
       </a>
 
-      <Link href="/gallery" className=" item items-16  temp-fill effects flex justify-center items-center text-center">
-        <img src="/apple.png" className="max-h-full p-1 object-cover" />
-      </Link>
+      <a href="/gallery" className=" item items-16   effects ">
+        <img src="/gallery.png" className="max-h-full p-1 object-cover" />
+      </a>
 
       <div className="item items-17 ">
         <HomePage />
