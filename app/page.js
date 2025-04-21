@@ -14,15 +14,15 @@ export default function Home() {
       <div className="item items-1  ">
         <h1 className="name-title  pt-5 px-4">
 
-            Hemendran (aka " <span className="font-cool "> Aadhi</span>")
-          
+          Hemendran (aka " <span className="font-cool "> Aadhi</span>")
+
         </h1>
         <p className="pronounce px-5 ">
 
-            /hɪˈmɛn.drən/
+          /hɪˈmɛn.drən/
 
 
-       
+
 
         </p>
 
@@ -71,20 +71,20 @@ export default function Home() {
       <a className="item items-7  ">
         <ConfettiSideCannons>
 
-        < img src="/spiderman.jpg" className="spiderman-logo" />
+          < img src="/spiderman.jpg" className="spiderman-logo" />
         </ConfettiSideCannons>
 
-        
+
       </a>
 
       <a className="item items-8  effects">
         < img src="/discord.svg" className="discord-logo" />
       </a>
 
-  
 
-    <ShowPdf />
- 
+
+      <ShowPdf />
+
 
       <div className="item items-10  ">
         <h2 className="tech-stack-heading px-2 pt-1">Tech Stack</h2>
@@ -115,8 +115,8 @@ export default function Home() {
       <a className="item items-13  ">
 
         <h2 className="about-me px-2 py-1">
-              about me
-            </h2>
+          about me
+        </h2>
         <p className="px-6 about-text">
 
           I’m a guy who’s into design, tech, and and music. Not super active on socials, but I’m lowkey chill and just enjoy
@@ -126,28 +126,26 @@ export default function Home() {
 
       </a>
 
-      <a className="item items-14  effects ">
+      <Link href='https://www.youtube.com/@hemendrans1195' className="item items-14  effects ">
         <img src="/youtube.svg" className="yt-icon" />
-      </a>
+      </Link>
 
       <a href='https://www.chess.com/member/hemendran0411' className="item items-15  effects">
         <img src="chess.svg" className="yt-icon" />
       </a>
 
-      <p className=" item items-16  temp-fill effects flex justify-center items-center text-center">
-        WORK IN PROGRESS⚠️
-
-
-      </p>
+      <Link href="/gallery" className=" item items-16  temp-fill effects flex justify-center items-center text-center">
+        <img src="/apple.png" className="max-h-full p-1 object-cover" />
+      </Link>
 
       <div className="item items-17 ">
         <HomePage />
 
 
       </div>
-   
-      <div className='item items-18  w-full text-center py-4 text-gray-500 text-sm bg-gray-900'> 
-      © {new Date().getFullYear()} Hemendran. All rights reserved.
+
+      <div className='item items-18  w-full text-center py-4 text-gray-500 text-sm bg-gray-900'>
+        © {new Date().getFullYear()} Hemendran. All rights reserved.
       </div>
       <div className='foot'></div>
       <div>
